@@ -173,7 +173,6 @@ Este projeto foi desenvolvido por:
 
 ### 📋 Protótipo
 - **Figma**: [Link do Protótipo](https://www.figma.com/proto/sp7N99IKyUCAmHTr7BXvOb/Atrav%C3%A9s-do-Mar?node-id=1-902&t=8Rv6CgP81KKpnY0v-1)*
-- **Wireframes**: [Link dos Wireframes](
 
 ### 🎥 Vídeo de Apresentação
 - **Drive**: [Vídeo Demonstrativo](https://drive.google.com/file/d/1UnGOyl0Ssudke9gwIsg4JzW52pzIP4ZQ/view?usp=drive_link)
