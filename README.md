@@ -165,7 +165,7 @@ Este projeto foi desenvolvido por:
 
 - **Discord**: [Comunidade Através do Mar](https://discord.com/)
 - **Apoio às Belugas**: [Beluga Sanctuary](https://belugasanctuary.sealifetrust.org/en)
-- **Email**: [contato@atravesdomar.com] *(adicionar email real)*
+- **Email**: [contato@atravesdomar.com]
 
 ---
 
