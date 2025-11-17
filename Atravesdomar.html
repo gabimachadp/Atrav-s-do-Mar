@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="menubotao" id="menu-btn">
+    <svg class="onda" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/>
+      <path d="M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/>
+      <path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/>
+    </svg>
+    <span class="textoonda">Através do Mar</span>
+  </div>
+ <nav id="navbar">
+  <div class="navbar">
+    <div class="menuitens">
+      <div class="botaomeio">
+        <li><button data-page="sobre" onclick="location.href='#sobre'">Sobre</button></li>
+        <li><button data-page="omundo" onclick="location.href='#0mundo'">O Mundo</button></li>
+        <li><button data-page="caracteristicas" onclick="location.href='#carac'">Características</button></li>
+      </div>
+      </div>
+
+      <div class="botaodireita">
+        <li><button data-page="juntarseaaventura" onclick="location.href='#download'">Juntar-se à Aventura!</button></li>
+      </div>
+    
+  </div>
+</nav>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDx6ZAVfHWe1Y" crossorigin="anonymous"></script>
+<section class="belugaini" id="atravesdomar">
+   <div class="belugatexto">
+   <h1 style="font-size: clamp(50px, 5vw, 90px);">Através do Mar <button onclick="toggleAudio(this)" class="TTS"><img src="ear-listen-solid-full.svg" alt=""></button><audio id="audioAM" class="audio" src="AtravesDoMar.mp3"></audio></h1> 
+   <p style="font-size: clamp(22px, 2vw, 36px);">Uma amostra voltada ao desenvolvimento de Belugas no Ártico, representando a perspectiva de uma beluga e como elas vivem diante da ameaça de seus caçadores, e mostrando como devemos preservar o meio-ambiente para evitar a extinção das espécies. Um jogo interativo e com intuito de sensibilizar de uma forma dinâmica interativa sobre o ecosistema do Ártico.</p>
+   </div>
+</section>
+
+<section style="height: 200px;" id="sobre"></section>
+<main>
+<body>
+    <section class="sobreoprojeto";>
+      <div style="
+      background: linear-gradient(150deg,  #b3faff8a, #aaccda46);
+      border-radius: 20px;
+      z-index: 1; 
+      width: auto;
+      height: auto;
+      margin-left: 20px;
+      margin-right: 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.09);
+      position: flex;
+      padding: 0px;
+      ">  
+        <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+        <h1 class="text-center mb-5" style="font-size: clamp(30px, 5vw, 60px);">Sobre o Projeto <button onclick="toggleAudio(this)" class="TTS"><img src="ear-listen-solid-full.svg" alt=""></button><audio id="audioSobre" class="audio" src="Sobre.mp3"></audio></h1>
+        <p style="font-size: clamp(16px, 1.5vw, 30px);">
+           Através do Mar é um sistema RPG de mesa educacional que combina elementos de fantasia aquática com a curiosidades e a beleza dos mares, você joga com um dos animais mais misteriosos que habitam os oceanos profundos do Ártico. Neste mundo, os jogadores exploram reinos submarinos, interagem com civilizações marinhas e desvendam mistérios das profundezas enquanto tentam voltar para casa.</p>
+          </div>
+    <div class="col-md-6 text-center">
+    <aside>
+        <div class="personagem">
+        <h2 class="titulo" style="font-size: clamp(20px, 3vw, 30px);">Personagens Únicos</h2>
+        <p class="texto" style="font-size: clamp(10px, 1.5vw, 20px);">Crie personagens únicos, desde belugas a narvais, e até mesmo seus misteriosos híbridos as narlugas.</p> 
+        <button onclick="toggleAudio(this)" class="TTS"><img src="ear-listen-solid-full.svg" alt=""></button><audio id="audioPer" class="audio"  src="Personagens.mp3"></audio>
+        </div>
+        <div class="mundo">
+          <h2 class="titulo" style="font-size: clamp(20px, 3vw, 30px);">Mundo Expansivo</h2>
+          <p class="texto" style="font-size: clamp(10px, 1.5vw, 20px);">Explore AquaLunna, um mundo onde continentes flutuam e oceanos escondem civilizações antigas.</p>
+          <button onclick="toggleAudio(this)" class="TTS"><img src="ear-listen-solid-full.svg" alt=""></button><audio id="audioME" class="audio"  src="MundoExtra.mp3"></audio>
+        </div>
+        <div class="sistema">
+          <h2 class="titulo" style="font-size: clamp(20px, 3vw, 30px);">Sistema Narrativo</h2>
+          <p class="texto" style="font-size: clamp(10px, 1.5vw, 20px);">Mecânicas focadas em narrativa colaborativa e decisões que moldam o destino dos oceanos e do seu grupo.</p>
+          <button onclick="toggleAudio(this)" class="TTS"><img src="ear-listen-solid-full.svg" alt=""></button><audio id="audioSis" class="audio"  src="Sistema.mp3"></audio>
+        </div>
+        </div>
+    </aside>
+  </div>
+</section>
+</body>
+</div>
+</main>
+
+<section class="Omundo" class="secao">
+  <section style="height: 400px;"></section>
+    <div style="
+  background: linear-gradient(150deg,  #b3faff1f, #b9d8e480);
+  border-radius: 20px;
+  z-index: 1; 
+  width: auto;
+  height: auto;
+  margin-left: 7vh;
+  margin-right: 7vh;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.09);
+  position: flex;
+  padding: 50px;
+  text-align: left; 
+  font-size: clamp(16px, 1.5vw, 20px);
+  color: aliceblue; 
+  text-shadow: 0 0 10px #0001384f; 
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+  z-index: 2;
+  padding-bottom: 60px;
+  ">
+ 
+  <section id="0mundo">
+    <div class="container">
+      <h1 class="text-center mb-5" style="font-size: clamp(50px, 5vw, 60px);">O Mundo <button onclick="toggleAudio(this)" class="TTS"><img src="ear-listen-solid-full.svg" alt=""></button><audio id="audioMundo" class="audio"  src="Mundo.mp3"></audio></h1>
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4">
+          <div>
+            <h2 style="font-size: clamp(36px, 3vw, 50px);">AquaLunna</h2>
+            <p style="font-size: clamp(18px, 2vw, 24px);">
+              No nosso mundo fictício você poderá explorar um mundo marítimo onde as lendas, magia e tradições são uma base fundamental. Descubra poderes da água e da lua ou enfrente estranhas forças que tentam atrasar seus planos. O universo vasto e misterioso está em suas mãos para se aventurar.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4 text-center">
+          <img src="Omundo.png" alt="Omundo" style="width: 32vw; height: 40vh; border-radius: 12px; box-shadow: 0 0 10px #0000001a;">
+        </div>
+      </div>
+    </div>
+  </section>
+  </section>
+
+  <section class="ascaracteristicas">
+    <section style="height: 400px;"></section>
+    <div style="
+  background: linear-gradient(150deg,  #d1eef0da, #d4ecf04b);
+  border-radius: 20px;
+  z-index: 1; 
+  width: auto;
+  height: auto;
+  margin-left: 14vh;
+  margin-right: 14vh;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.09);
+  position: flex;
+  padding: 50px;
+  ">
+    <h1 id="carac" style="text-align: center; font-size: clamp(30px, 5vw, 55px); color: rgb(255, 255, 255); text-shadow: 0 0 10px #00013877; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+      Características
+    </h1>
+
+ <div class="barra" style="margin-top: 4vh;">
+  <nav class="opcoes">
+    <button class="opcao ativa" style="font-size: clamp(12px, 2vw, 18px);">Campanhas Épicas</button>
+    <button class="opcao" style="font-size: clamp(12px, 2vw, 18px);">Sistema de Navegação</button>
+    <button class="opcao" style="font-size: clamp(12px, 2vw, 18px);">Magia das Marés</button>
+    <span class="indicador"></span>
+  </nav>
+</div>
+
+<div class="conteudo" style="margin-top: 4vh;">
+  <div class="painel ativo" style="font-size: clamp(12px, 1.5vw, 20px);">
+    <button onclick="toggleAudio(this)" class="TTS"><img src="ear-listen-solid-full.svg" alt=""></button><audio id="audioCamp" class="audio"  src="Campanhas.mp3"></audio>
+    Faça suas próprias campanhas ou use a campanha própria do sistema para poder ter sua versão dessa história onde você pode decidir o destino desse mundo.
+    <img src="buraco.jpg" alt="" style="width: 30vw; height: 40vh; border-radius: 12px; margin: 30px;">
+  </div>  
+  <div class="painel" style="font-size: clamp(12px, 1.5vw, 20px);">
+    <button onclick="toggleAudio(this)" class="TTS"><img src="ear-listen-solid-full.svg" alt=""></button><audio id="audioNav" class="audio"  src="Navegação.mp3"></audio>
+    Mude a rota e crie seu próprio caminho e mapas para seguir na sua jornada, cada atalho e direção pode trazer novos amigos e dificuldades para se enfrentar
+    <img src="iceberg.png" alt="" style="width: 30vw; height: 40vh; border-radius: 12px; margin: 30px;">
+  </div>
+  <div class="painel" style="font-size: clamp(12px, 1.5vw, 20px);">
+    <button onclick="toggleAudio(this)" class="TTS"><img src="ear-listen-solid-full.svg" alt=""></button><audio id="audioMagia" class="audio"  src="Magia.mp3"></audio>
+    Explore o que o mar pode te proporcionar e as estranhas correntes de magia que afloram das águas e corais, que podem tanto ajudar quanto dificultar o seu objetivo conforme suas escolhas e sorte
+     <img src="gelos.png" alt="" style="width: 30vw; height: 40vh; border-radius: 12px; margin: 30px;">
+  </div>
+</div>
+  </div>
+  </section>
+
+<section>
+   <section style="height: 200px;" id="download"></section>
+   <div class="links">
+    <h1 style="font-size: clamp(30px, 5vw, 50px);">Pronto para mergulhar?</h1>
+    <button class="linksb">
+      <a href="Através do Mar - Fastplay.pdf" download="AtravesDoMar - Fastplay" class="download" style="font-size: clamp(18px, 2vw, 30px);">Download</a>
+      <a href="https://belugasanctuary.sealifetrust.org/en" class="apoiar" target="top" style="font-size: clamp(14px, 1.5vw, 30px);">Como apoiar</a>
+      <a href="https://discord.com/" class="discord" target="top" style="font-size: clamp(14px, 1.5vw, 30px);">Comunidade do Discord</a>
+    </button>
+   </div>
+</section>
+
+<body style="background: linear-gradient(to bottom, #075c80  80%, #06375f 120%);">
+   <section style="height: 100px;"></section>
+  <h1 style="text-align: center; font-size: clamp(30px, 5vw, 50px); color: rgb(255, 255, 255); text-shadow: 0 0 10px #00013877; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> 
+    Membros
+  </h1>
+  
+  <section>
+    <div class="membros">
+      <div class="membro"><h3 style="font-size: clamp(8px, 1.5vw, 26px);">Bárbara Souza</h3></div>
+      <div class="membro"><h3 style="font-size: clamp(8px, 1.5vw, 26px);">Felipe Magioli</h3></div>
+      <div class="membro"><h3 style="font-size: clamp(8px, 1.5vw, 26px);">Gabriella Moraes</h3></div>
+      <div class="membro"><h3 style="font-size: clamp(8px, 1.5vw, 26px);">Stella Miranda</h3></div>
+      <div class="membro"><h3 style="font-size: clamp(8px, 1.5vw, 26px);">Yasmin Farah</h3></div>
+    </div>
+  </section>
+  
+<footer style="font-size: clamp(16px, 1.5vw, 20px);">Através do Mar © 2025</footer>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+
+</body>
+</body>
+</html>
